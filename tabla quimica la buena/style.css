@@ -1,0 +1,512 @@
+body {
+    background-color: rgba(0, 0, 0, 0.815);
+
+}
+
+.TITULO{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 1% auto 0 8%;
+    align-items: center; 
+    text-align: center;
+}
+
+
+.fila {
+    display: flex; 
+    flex-wrap: wrap;   
+}
+.container div div:hover {
+    transform: scale(1.1); 
+  }
+.fila div {
+    width: 50px;
+    height: 50px;
+    font-size: 6px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 2px;
+    
+}
+
+.fila label:nth-child(1){
+    font-size: 13px;
+}
+
+.fila1 div:nth-child(2){
+    margin-left: 822px;
+}
+
+.fila2 div:nth-child(3){
+    margin-left: 514px;
+}
+
+.fila3 div:nth-child(3){
+    margin-left: 514px;
+}
+
+.fila8 div{
+    margin-top: 50px
+
+}
+.fila8 div:nth-child(1){
+    margin-left: 205px;
+    
+}
+.fila9 div:nth-child(1){
+    margin-left: 205px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    background-color: rgb(255, 255, 255);
+    margin: 10% auto;
+    padding: 20px;
+    border: 5px  solid #000000;
+    width: 250px;
+    text-align: center;
+    font-size: 12px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.H{
+    background-color: #8c85f4;
+}
+
+.Li{
+    background-color: #ff6961;
+}
+
+.Na{
+    background-color: #ff6961;
+}
+
+.K{
+    background-color: #ff6961;
+}
+
+.Rb{
+    background-color: #ff6961;
+}
+
+.Li{
+    background-color: #ff6961;
+}
+
+.Cs{
+    background-color: #ff6961;
+}
+
+.Fr{
+    background-color: #ff6961;
+}
+
+.Be{
+    background-color: #fdcd4b;
+}
+
+.Mg{
+    background-color: #fdcd4b;
+}
+
+.Ca{
+    background-color: #fdcd4b;
+}
+
+.Sr{
+    background-color: #fdcd4b;
+}
+
+.Ba{
+    background-color: #fdcd4b;
+}
+
+.Ra{
+    background-color: #fdcd4b;
+}
+
+.Sc{
+    background-color: #bed54a;
+}
+
+.Ti{
+    background-color: #bed54a;
+}
+
+
+.V{
+    background-color: #bed54a;
+}
+
+.Cr{
+    background-color: #bed54a;
+}
+
+.Mn{
+    background-color: #bed54a;
+}
+
+.Fe{
+    background-color: #bed54a;
+}
+
+.Co{
+    background-color: #bed54a;
+}
+
+.Ni{
+    background-color: #bed54a;
+}
+
+.Cu{
+    background-color: #bed54a;
+}
+
+.Zn{
+    background-color: #bed54a;
+}
+
+.Y{
+    background-color: #bed54a;
+}
+
+.Zr{
+    background-color: #bed54a;
+}
+
+.Nb{
+    background-color: #bed54a;
+}
+
+.Mo{
+    background-color: #bed54a;
+}
+
+.Tc{
+    background-color: #bed54a;
+}
+
+.Ru{
+    background-color: #bed54a;
+}
+
+.Rh{
+    background-color: #bed54a;
+}
+
+.Pd{
+    background-color: #bed54a;
+}
+
+.Ag{
+    background-color: #bed54a;
+}
+
+.Cd{
+    background-color: #bed54a;
+}
+
+.La{
+    background-color: #5fd8b5;
+}
+
+.Ce{
+    background-color: #5fd8b5;
+}
+
+.Pr{
+    background-color: #5fd8b5;
+}
+
+.Nd{
+    background-color: #5fd8b5;
+}
+
+.Pm{
+    background-color: #5fd8b5;
+}
+
+.Sm{
+    background-color: #5fd8b5;
+}
+
+.Eu{
+    background-color: #5fd8b5;
+}
+.Gd{
+    background-color: #5fd8b5;
+}
+.Tb{
+    background-color: #5fd8b5;
+}
+.Dy{
+    background-color: #5fd8b5;
+}
+.Ho{
+    background-color: #5fd8b5;
+}
+
+.Er{
+    background-color: #5fd8b5;
+}
+.Tm{
+    background-color: #5fd8b5;
+}
+.Yb{
+    background-color: #5fd8b5;
+}
+.Lu{
+    background-color: #5fd8b5;
+}
+.Ac{
+    background-color: #78de78;
+}
+
+.Th{
+    background-color: #78de78;
+}
+.Pa{
+    background-color: #78de78;
+}
+.U{
+    background-color: #78de78;
+}
+.Np{
+    background-color: #78de78;
+}
+.Pu{
+    background-color: #78de78;
+}
+.Am{
+    background-color: #78de78;
+}
+.Cm{
+    background-color: #78de78;
+}
+.Bk{
+    background-color: #78de78;
+}
+.Cf{
+    background-color: #78de78;
+}
+.Es{
+    background-color: #78de78;
+}
+.Fm{
+    background-color: #78de78;
+}
+.Md{
+    background-color: #78de78;
+}
+.No{
+    background-color: #78de78;
+}
+.Lr{
+    background-color: #78de78;
+}
+.Hf{
+    background-color: #bed54a;
+}
+.Ta{
+    background-color: #bed54a;
+}
+.W{
+    background-color: #bed54a;
+}
+.Re{
+    background-color: #bed54a;
+}
+.Os{
+    background-color: #bed54a;
+}
+.Ir{
+    background-color: #bed54a;
+}
+.Pt{
+    background-color: #bed54a;
+}
+.Au{
+    background-color: #bed54a;
+}
+.Hg{
+    background-color: #bed54a;
+}
+.Rf{
+    background-color: #bed54a;
+}
+.Db{
+    background-color: #bed54a;
+}
+.Sg{
+    background-color: #bed54a;
+}
+.Bh{
+    background-color: #bed54a;
+}
+.Hs{
+    background-color: #bed54a;
+}
+.Mt{
+    background-color: #bed54a;
+}
+.Ds{
+    background-color: #bed54a;
+}
+.Rg{
+    background-color: #bed54a;
+}
+.Cn{
+    background-color: #bed54a;
+}
+
+.Al{
+    background-color: #f7e91e;
+}
+.Ga{
+    background-color: #f7e91e;
+}
+.In{
+    background-color: #f7e91e;
+}
+.Tl{
+    background-color: #f7e91e;
+}
+.Nh{
+    background-color: #f7e91e;
+}
+.Sn{
+    background-color: #f7e91e;
+}
+.Pb{
+    background-color: #f7e91e;
+}
+.Fl{
+    background-color: #f7e91e;
+}
+.Bi{
+    background-color: #f7e91e;
+}
+.Mc{
+    background-color: #f7e91e;
+}
+.Lv{
+    background-color: #f7e91e;
+}
+
+.B{
+    background-color: #15ab92;
+}
+.Si{
+    background-color: #15ab92;
+}
+.Ge{
+    background-color: #15ab92;
+}
+.As{
+    background-color: #15ab92;
+}
+.Sb{
+    background-color: #15ab92;
+}
+.Te{
+    background-color: #15ab92;
+}
+.Po{
+    background-color: #15ab92;
+}
+
+.C{
+    background-color: #8c85f4;
+}
+.N{
+    background-color: #8c85f4;
+}
+.O{
+    background-color: #8c85f4;
+}
+.P{
+    background-color: #8c85f4;
+}
+.S{
+    background-color: #8c85f4;
+}
+.Se{
+    background-color: #8c85f4;
+}
+
+.F{
+    background-color: #f3a3a8;
+}
+.Cl{
+    background-color: #f3a3a8;
+}
+.Br{
+    background-color: #f3a3a8;
+}
+.I{
+    background-color: #f3a3a8;
+}
+.At{
+    background-color: #f3a3a8;
+}
+.Ts{
+    background-color: #f3a3a8;
+}
+.He{
+    background-color: #98c0f6;
+}
+.Ne{
+    background-color: #98c0f6;
+}
+.Ar{
+    background-color: #98c0f6;
+}
+.Kr{
+    background-color: #98c0f6;
+}
+.Xe{
+    background-color: #98c0f6;
+}
+.Rn{
+    background-color: #98c0f6;
+}
+.Og{
+    background-color: #98c0f6;
+}
+
